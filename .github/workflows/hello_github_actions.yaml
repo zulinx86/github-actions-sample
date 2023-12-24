@@ -1,0 +1,8 @@
+name: hello-github-actions
+on: [push]
+jobs:
+  hello-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello GitHub Actions!"
+
